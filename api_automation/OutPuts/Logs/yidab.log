@@ -1,0 +1,107 @@
+2023-02-15 13:58:57,921  mawenjie INFO mobile_file.py line:13：14595482777
+2023-02-15 13:58:57,922  mawenjie INFO handle_requests.py line:54：拼接后的URL：https://api.yidab.com/yideb-app/user/login.do
+2023-02-15 13:58:58,734  mawenjie INFO handle_requests.py line:64：response：{'code': 500, 'data': None, 'msg': '服务器发生内部异常', 'sign': '', 'success': False}
+2023-02-15 13:58:58,734  mawenjie INFO test_register.py line:42：cookies:<RequestsCookieJar[]>
+2023-02-15 13:58:58,736  mawenjie ERROR test_register.py line:54：断言失败
+Traceback (most recent call last):
+  File "D:\py_word\api_automation\TestCases\test_register.py", line 45, in test_register_ok
+    self.assertEqual(response.json()["code"], response_data["code"])
+  File "D:\PyCharm Community Edition 2022.1\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 500 != 200
+2023-02-15 16:03:46,555  mawenjie INFO mobile_file.py line:13：18194665112
+2023-02-15 16:03:46,555  mawenjie INFO handle_requests.py line:54：拼接后的URL：https://api.yidab.com/yideb-app/user/login.do
+2023-02-15 16:03:47,472  mawenjie INFO handle_requests.py line:62：cookies:<RequestsCookieJar[]>
+2023-02-15 16:03:47,472  mawenjie INFO handle_requests.py line:63：request:{'deviceId': 'EB44550306D24FB0990882E38B6C9DFD', 'osType': '2', 'userId': '1528915867000246272', 'deviceModel': 'iPhone 8 Plus', 'channel': '苹果', 'data': {'mobile': '18194665112', 'verifyCode': '0829'}, 'version': 'v3.5.3', 'terminalType': '3', 'networkType': '4', 'osVersion': '13.6', 'networkOperator': '46001', 'deviceBrand': '苹果'}
+2023-02-15 16:03:47,473  mawenjie INFO handle_requests.py line:64：response：{'code': 500, 'data': None, 'msg': '服务器发生内部异常', 'sign': '', 'success': False}
+2023-02-15 16:03:47,473  mawenjie INFO test_register.py line:42：cookies:<RequestsCookieJar[]>
+2023-02-15 16:03:47,475  mawenjie ERROR test_register.py line:54：断言失败
+Traceback (most recent call last):
+  File "D:\py_word\api_automation\TestCases\test_register.py", line 45, in test_register_ok
+    self.assertEqual(response.json()["code"], response_data["code"])
+  File "D:\PyCharm Community Edition 2022.1\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 500 != 200
+2023-02-15 16:05:12,315  mawenjie INFO mobile_file.py line:13：13502149751
+2023-02-15 16:05:12,316  mawenjie INFO handle_requests.py line:54：拼接后的URL：https://api.yidab.com/yideb-app/user/login.do
+2023-02-15 16:05:12,699  mawenjie INFO handle_requests.py line:62：cookies:<RequestsCookieJar[]>
+2023-02-15 16:05:12,699  mawenjie INFO handle_requests.py line:63：request:{'deviceId': 'EB44550306D24FB0990882E38B6C9DFD', 'osType': '2', 'userId': '1528915867000246272', 'deviceModel': 'iPhone 8 Plus', 'channel': '苹果', 'data': {'mobile': '13502149751', 'verifyCode': '0829'}, 'version': 'v3.5.3', 'terminalType': '3', 'networkType': '4', 'osVersion': '13.6', 'networkOperator': '46001', 'deviceBrand': '苹果'}
+2023-02-15 16:05:12,700  mawenjie INFO handle_requests.py line:64：response：{'code': 500, 'data': None, 'msg': '服务器发生内部异常', 'sign': '', 'success': False}
+2023-02-15 16:06:20,711  mawenjie INFO mobile_file.py line:13：13820612423
+2023-02-15 16:06:20,711  mawenjie INFO handle_requests.py line:54：拼接后的URL：https://api.yidab.com/yideb-app/user/login.do
+2023-02-15 16:06:21,080  mawenjie INFO handle_requests.py line:62：cookies:<RequestsCookieJar[]>
+2023-02-15 16:06:21,080  mawenjie INFO handle_requests.py line:63：request:{'deviceId': 'EB44550306D24FB0990882E38B6C9DFD', 'osType': '2', 'userId': '1528915867000246272', 'deviceModel': 'iPhone 8 Plus', 'channel': '苹果', 'data': {'mobile': '13820612423', 'verifyCode': '0829'}, 'version': 'v3.5.3', 'terminalType': '3', 'networkType': '4', 'osVersion': '13.6', 'networkOperator': '46001', 'deviceBrand': '苹果'}
+2023-02-15 16:06:21,080  mawenjie INFO handle_requests.py line:64：response：{'code': 500, 'data': None, 'msg': '服务器发生内部异常', 'sign': '', 'success': False}
+2023-02-15 16:06:21,082  mawenjie ERROR test_register.py line:53：断言失败
+Traceback (most recent call last):
+  File "D:\py_word\api_automation\TestCases\test_register.py", line 44, in test_register_ok
+    self.assertEqual(response.json()["code"], response_data["code"])
+  File "D:\PyCharm Community Edition 2022.1\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 500 != 200
+2023-02-15 18:03:03,065  mawenjie INFO mobile_file.py line:13：19998649130
+2023-02-15 18:03:03,066  mawenjie INFO handle_requests.py line:54：拼接后的URL：https://api.yidab.com/yideb-app/user/login.do
+2023-02-15 18:03:03,922  mawenjie INFO handle_requests.py line:62：cookies:<RequestsCookieJar[]>
+2023-02-15 18:03:03,922  mawenjie INFO handle_requests.py line:63：request:{'deviceId': 'EB44550306D24FB0990882E38B6C9DFD', 'osType': '2', 'userId': '1528915867000246272', 'deviceModel': 'iPhone 8 Plus', 'channel': '苹果', 'data': {'mobile': '19998649130', 'verifyCode': '0829'}, 'version': 'v3.5.3', 'terminalType': '3', 'networkType': '4', 'osVersion': '13.6', 'networkOperator': '46001', 'deviceBrand': '苹果'}
+2023-02-15 18:03:03,922  mawenjie INFO handle_requests.py line:64：response：{'code': 500, 'data': None, 'msg': '服务器发生内部异常', 'sign': '', 'success': False}
+2023-02-15 18:03:03,925  mawenjie ERROR test_register.py line:53：断言失败
+Traceback (most recent call last):
+  File "D:\py_word\api_automation\TestCases\test_register.py", line 44, in test_register_ok
+    self.assertEqual(response.json()["code"], response_data["code"])
+  File "D:\PyCharm Community Edition 2022.1\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3\lib\unittest\case.py", line 838, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 500 != 200
+2023-02-15 18:06:20,014  mawenjie INFO mobile_file.py line:13：13450735418
+2023-02-15 18:06:20,015  mawenjie INFO handle_requests.py line:54：拼接后的URL：https://api.yidab.com/yideb-app/user/login.do
+2023-02-15 18:06:20,109  mawenjie INFO handle_requests.py line:62：cookies:<RequestsCookieJar[]>
+2023-02-15 18:06:20,109  mawenjie INFO handle_requests.py line:63：request:{'deviceId': 'EB44550306D24FB0990882E38B6C9DFD', 'osType': '2', 'userId': '', 'deviceModel': 'iPhone 8 Plus', 'channel': '苹果', 'data': {'mobile': '13450735418', 'verifyCode': '0829'}, 'version': 'v3.5.3', 'terminalType': '3', 'networkType': '4', 'osVersion': '13.6', 'networkOperator': '46001', 'deviceBrand': '苹果'}
+2023-11-22 14:35:25,571  mawenjie INFO mobile_file.py line:13：18002504424
+2023-11-22 14:35:25,572  mawenjie INFO handle_requests.py line:54：拼接后的URL：https://api.yidab.com/yideb-app/user/login.do
+2023-11-22 14:35:26,256  mawenjie INFO handle_requests.py line:62：cookies:<RequestsCookieJar[<Cookie sid=VG9rZW5JZF8xNzI3MjE0MTgzOTM5OTY5MDI0X1U0ZTgxaDU0 for api.yidab.com/>]>
+2023-11-22 14:35:26,256  mawenjie INFO handle_requests.py line:63：request:{'deviceId': 'EB44550306D24FB0990882E38B6C9DFD', 'osType': '2', 'userId': '1528915867000246272', 'deviceModel': 'iPhone 8 Plus', 'channel': '苹果', 'data': {'mobile': '18002504424', 'verifyCode': '0829'}, 'version': 'v3.5.3', 'terminalType': '3', 'networkType': '4', 'osVersion': '13.6', 'networkOperator': '46001', 'deviceBrand': '苹果'}
+2023-11-22 14:35:26,257  mawenjie INFO handle_requests.py line:64：response：{'code': 200, 'data': {'aideStatus': 0, 'avatarUrl': 'https://yideb-app.oss-cn-beijing.aliyuncs.com/pub/image/202005/default-user-avatar.png', 'bankCardStatus': 0, 'certificateStatus': 0, 'clinicAppRole': None, 'clinicId': '', 'clinicName': '', 'clinicStatus': None, 'consultationType': 0, 'effectiveEndDate': '', 'identify': 0, 'memberStatus': 0, 'miniProgramStatus': 1, 'mobile': '18002504424', 'nick': '', 'perfectStatus': 0, 'publicWalletStatus': 0, 'regSource': 54, 'remainingEffectiveDays': None, 'uid': '1727214183939969024', 'userName': '', 'userStatus': 1, 'walletAccountStatus': 0, 'whetherDeactivateStatus': 1, 'wxAlias': ''}, 'msg': '登录成功', 'sign': '', 'success': True}
+2023-11-22 14:35:26,278  mawenjie INFO test_register.py line:50：sql查询结果: {'uid': '1727214183939969024', 'login_name': None, 'user_name': None, 'mobile': '18002504424', 'password': 'DISABLE', 'password_nature': None, 'identify': 0, 'parent_uid': None, 'salt': None, 'sex': None, 'birth_date': None, 'id_no': None, 'id_card_pic': None, 'pinyin': None, 'remark': None, 'tel': None, 'email': None, 'weixin': None, 'weixin_unionId': None, 'qq': None, 'address': None, 'nick': None, 'avatar': None, 'specialty': None, 'introduce': None, 'reg_source': 54, 'vip': None, 'reference_id': None, 'user_status': 1, 'create_date': datetime.datetime(2023, 11, 22, 14, 35, 26), 'if_bonus': 0, 'password_modify_time': datetime.datetime(2023, 11, 22, 14, 35, 26), 'mssp_id': None}
+2023-11-22 14:36:54,658  mawenjie INFO mobile_file.py line:13：15881965605
+2023-11-22 14:36:54,659  mawenjie INFO handle_requests.py line:54：拼接后的URL：https://api.yidab.com/yideb-app/user/login.do
+2023-11-22 14:36:55,058  mawenjie INFO handle_requests.py line:62：cookies:<RequestsCookieJar[<Cookie sid=VG9rZW5JZF8xNzI3MjE0NTU3NjI3Mjg5NjAwXzF4bjc3MUkw for api.yidab.com/>]>
+2023-11-22 14:36:55,059  mawenjie INFO handle_requests.py line:63：request:{'deviceId': 'EB44550306D24FB0990882E38B6C9DFD', 'osType': '2', 'userId': '1528915867000246272', 'deviceModel': 'iPhone 8 Plus', 'channel': '苹果', 'data': {'mobile': '15881965605', 'verifyCode': '0829'}, 'version': 'v3.5.3', 'terminalType': '3', 'networkType': '4', 'osVersion': '13.6', 'networkOperator': '46001', 'deviceBrand': '苹果'}
+2023-11-22 14:36:55,059  mawenjie INFO handle_requests.py line:64：response：{'code': 200, 'data': {'aideStatus': 0, 'avatarUrl': 'https://yideb-app.oss-cn-beijing.aliyuncs.com/pub/image/202005/default-user-avatar.png', 'bankCardStatus': 0, 'certificateStatus': 0, 'clinicAppRole': None, 'clinicId': '', 'clinicName': '', 'clinicStatus': None, 'consultationType': 0, 'effectiveEndDate': '', 'identify': 0, 'memberStatus': 0, 'miniProgramStatus': 1, 'mobile': '15881965605', 'nick': '', 'perfectStatus': 0, 'publicWalletStatus': 0, 'regSource': 54, 'remainingEffectiveDays': None, 'uid': '1727214557627289600', 'userName': '', 'userStatus': 1, 'walletAccountStatus': 0, 'whetherDeactivateStatus': 1, 'wxAlias': ''}, 'msg': '登录成功', 'sign': '', 'success': True}
+2023-11-22 14:36:55,080  mawenjie INFO test_register.py line:50：sql查询结果: {'uid': '1727214557627289600', 'login_name': None, 'user_name': None, 'mobile': '15881965605', 'password': 'DISABLE', 'password_nature': None, 'identify': 0, 'parent_uid': None, 'salt': None, 'sex': None, 'birth_date': None, 'id_no': None, 'id_card_pic': None, 'pinyin': None, 'remark': None, 'tel': None, 'email': None, 'weixin': None, 'weixin_unionId': None, 'qq': None, 'address': None, 'nick': None, 'avatar': None, 'specialty': None, 'introduce': None, 'reg_source': 54, 'vip': None, 'reference_id': None, 'user_status': 1, 'create_date': datetime.datetime(2023, 11, 22, 14, 36, 55), 'if_bonus': 0, 'password_modify_time': datetime.datetime(2023, 11, 22, 14, 36, 55), 'mssp_id': None}
+2023-11-22 15:31:30,197  mawenjie INFO mobile_file.py line:13：15232823273
+2023-11-22 15:31:30,198  mawenjie INFO handle_requests.py line:54：拼接后的URL：https://api.yidab.com/yideb-app/user/login.do
+2023-11-22 15:31:30,829  mawenjie INFO handle_requests.py line:62：cookies:<RequestsCookieJar[<Cookie sid=VG9rZW5JZF8xNzI3MjI4Mjk2NjU3MjQ0MTYwX0cwZTJxOW40 for api.yidab.com/>]>
+2023-11-22 15:31:30,830  mawenjie INFO handle_requests.py line:63：request:{'deviceId': 'EB44550306D24FB0990882E38B6C9DFD', 'osType': '2', 'userId': '1528915867000246272', 'deviceModel': 'iPhone 8 Plus', 'channel': '苹果', 'data': {'mobile': '15232823273', 'verifyCode': '0829'}, 'version': 'v3.5.3', 'terminalType': '3', 'networkType': '4', 'osVersion': '13.6', 'networkOperator': '46001', 'deviceBrand': '苹果'}
+2023-11-22 15:31:30,830  mawenjie INFO handle_requests.py line:64：response：{'code': 200, 'data': {'aideStatus': 0, 'avatarUrl': 'https://yideb-app.oss-cn-beijing.aliyuncs.com/pub/image/202005/default-user-avatar.png', 'bankCardStatus': 0, 'certificateStatus': 0, 'clinicAppRole': None, 'clinicId': '', 'clinicName': '', 'clinicStatus': None, 'consultationType': 0, 'effectiveEndDate': '', 'identify': 0, 'memberStatus': 0, 'miniProgramStatus': 1, 'mobile': '15232823273', 'nick': '', 'perfectStatus': 0, 'publicWalletStatus': 0, 'regSource': 54, 'remainingEffectiveDays': None, 'uid': '1727228296657244160', 'userName': '', 'userStatus': 1, 'walletAccountStatus': 0, 'whetherDeactivateStatus': 1, 'wxAlias': ''}, 'msg': '登录成功', 'sign': '', 'success': True}
+2023-11-22 15:31:30,923  mawenjie INFO test_register.py line:50：sql查询结果: {'uid': '1727228296657244160', 'login_name': None, 'user_name': None, 'mobile': '15232823273', 'password': 'DISABLE', 'password_nature': None, 'identify': 0, 'parent_uid': None, 'salt': None, 'sex': None, 'birth_date': None, 'id_no': None, 'id_card_pic': None, 'pinyin': None, 'remark': None, 'tel': None, 'email': None, 'weixin': None, 'weixin_unionId': None, 'qq': None, 'address': None, 'nick': None, 'avatar': None, 'specialty': None, 'introduce': None, 'reg_source': 54, 'vip': None, 'reference_id': None, 'user_status': 1, 'create_date': datetime.datetime(2023, 11, 22, 15, 31, 31), 'if_bonus': 0, 'password_modify_time': datetime.datetime(2023, 11, 22, 15, 31, 30), 'mssp_id': None}
+2023-11-22 15:31:41,983  mawenjie INFO mobile_file.py line:13：18580711101
+2023-11-22 15:31:41,983  mawenjie INFO handle_requests.py line:54：拼接后的URL：https://api.yidab.com/yideb-app/user/login.do
+2023-11-22 15:31:42,328  mawenjie INFO handle_requests.py line:62：cookies:<RequestsCookieJar[<Cookie sid=VG9rZW5JZF8xNzI3MjI4MzQ1NjU1MTAzNDg4XzQ2N0cyWjdZ for api.yidab.com/>]>
+2023-11-22 15:31:42,328  mawenjie INFO handle_requests.py line:63：request:{'deviceId': 'EB44550306D24FB0990882E38B6C9DFD', 'osType': '2', 'userId': '1528915867000246272', 'deviceModel': 'iPhone 8 Plus', 'channel': '苹果', 'data': {'mobile': '18580711101', 'verifyCode': '0829'}, 'version': 'v3.5.3', 'terminalType': '3', 'networkType': '4', 'osVersion': '13.6', 'networkOperator': '46001', 'deviceBrand': '苹果'}
+2023-11-22 15:31:42,329  mawenjie INFO handle_requests.py line:64：response：{'code': 200, 'data': {'aideStatus': 0, 'avatarUrl': 'https://yideb-app.oss-cn-beijing.aliyuncs.com/pub/image/202005/default-user-avatar.png', 'bankCardStatus': 0, 'certificateStatus': 0, 'clinicAppRole': None, 'clinicId': '', 'clinicName': '', 'clinicStatus': None, 'consultationType': 0, 'effectiveEndDate': '', 'identify': 0, 'memberStatus': 0, 'miniProgramStatus': 1, 'mobile': '18580711101', 'nick': '', 'perfectStatus': 0, 'publicWalletStatus': 0, 'regSource': 54, 'remainingEffectiveDays': None, 'uid': '1727228345655103488', 'userName': '', 'userStatus': 1, 'walletAccountStatus': 0, 'whetherDeactivateStatus': 1, 'wxAlias': ''}, 'msg': '登录成功', 'sign': '', 'success': True}
+2023-11-22 15:31:42,375  mawenjie INFO test_register.py line:50：sql查询结果: {'uid': '1727228345655103488', 'login_name': None, 'user_name': None, 'mobile': '18580711101', 'password': 'DISABLE', 'password_nature': None, 'identify': 0, 'parent_uid': None, 'salt': None, 'sex': None, 'birth_date': None, 'id_no': None, 'id_card_pic': None, 'pinyin': None, 'remark': None, 'tel': None, 'email': None, 'weixin': None, 'weixin_unionId': None, 'qq': None, 'address': None, 'nick': None, 'avatar': None, 'specialty': None, 'introduce': None, 'reg_source': 54, 'vip': None, 'reference_id': None, 'user_status': 1, 'create_date': datetime.datetime(2023, 11, 22, 15, 31, 43), 'if_bonus': 0, 'password_modify_time': datetime.datetime(2023, 11, 22, 15, 31, 42), 'mssp_id': None}
+2023-12-04 10:53:29,357  mawenjie INFO mobile_file.py line:13：17523000644
+2023-12-04 10:53:33,468  mawenjie INFO mobile_file.py line:13：15718246720
+2023-12-04 10:54:30,154  mawenjie INFO mobile_file.py line:13：13661216253
+2023-12-07 17:35:09,552  mawenjie INFO mobile_file.py line:13：18150727570
+2023-12-07 17:35:09,596  mawenjie INFO mobile_file.py line:13：18504132886
+2023-12-07 17:35:09,597  mawenjie INFO handle_requests.py line:54：拼接后的URL：https://api.yidab.com/yideb-app/user/login.do
+2023-12-07 17:35:10,469  mawenjie INFO handle_requests.py line:62：cookies:<RequestsCookieJar[<Cookie sid=VG9rZW5JZF8xNzMyNjk1MjMyMTE5NzA1NjAwX202QmZsMTNh for api.yidab.com/>]>
+2023-12-07 17:35:10,469  mawenjie INFO handle_requests.py line:63：request:{'deviceId': 'EB44550306D24FB0990882E38B6C9DFD', 'osType': '2', 'userId': '1528915867000246272', 'deviceModel': 'iPhone 8 Plus', 'channel': '苹果', 'data': {'mobile': '18504132886', 'verifyCode': '0829'}, 'version': 'v3.5.3', 'terminalType': '3', 'networkType': '4', 'osVersion': '13.6', 'networkOperator': '46001', 'deviceBrand': '苹果'}
+2023-12-07 17:35:10,470  mawenjie INFO handle_requests.py line:64：response：{'code': 200, 'data': {'aideStatus': 0, 'avatarUrl': 'https://yideb-app.oss-cn-beijing.aliyuncs.com/pub/image/202005/default-user-avatar.png', 'bankCardStatus': 0, 'certificateStatus': 0, 'clinicAppRole': None, 'clinicId': '', 'clinicName': '', 'clinicStatus': None, 'consultationType': 0, 'effectiveEndDate': '', 'identify': 0, 'memberStatus': 0, 'miniProgramStatus': 1, 'mobile': '18504132886', 'nick': '', 'perfectStatus': 0, 'publicWalletStatus': 0, 'regSource': 54, 'remainingEffectiveDays': None, 'uid': '1732695232119705600', 'userName': '', 'userStatus': 1, 'walletAccountStatus': 0, 'whetherDeactivateStatus': 1, 'wxAlias': ''}, 'msg': '登录成功', 'sign': '', 'success': True}
+2023-12-07 17:35:10,492  mawenjie INFO test_register.py line:50：sql查询结果: {'uid': '1732695232119705600', 'login_name': None, 'user_name': None, 'mobile': '18504132886', 'password': 'DISABLE', 'password_nature': None, 'identify': 0, 'parent_uid': None, 'salt': None, 'sex': None, 'birth_date': None, 'id_no': None, 'id_card_pic': None, 'pinyin': None, 'remark': None, 'tel': None, 'email': None, 'weixin': None, 'weixin_unionId': None, 'qq': None, 'address': None, 'nick': None, 'avatar': None, 'specialty': None, 'introduce': None, 'reg_source': 54, 'vip': None, 'reference_id': None, 'user_status': 1, 'create_date': datetime.datetime(2023, 12, 7, 17, 35, 10), 'if_bonus': 0, 'password_modify_time': datetime.datetime(2023, 12, 7, 17, 35, 9), 'mssp_id': None}

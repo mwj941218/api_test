@@ -1,0 +1,14 @@
+0.设计测试用例
+
+1.读取相关的测试用例
+    handle-excel
+2.定义一个测试类，继承unittest.TestCase
+
+3.前置后置
+
+4.编写用例
+    def test_xxx():
+        动态替换数据 - mark
+        发送请求  send_requests
+        获取预期结果，把期望结果从字符串转换成字典对象  evel()
+        断言期望的响应结果以及数据库校验
